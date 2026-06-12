@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexora — Master Words. Master Expression.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="bg-canvas"></div>
+
+    <header class="navbar" id="main-navbar">
+        <div class="navbar-container">
+            <a href="#home" class="nav-logo" aria-label="Lexora Home">
+                <svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="logo-text">Lexora</span>
+            </a>
+
+            <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle Navigation Menu">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#galaxy" class="nav-link">Vocabulary</a></li>
+                    <li><a href="#quiz" class="nav-link">Quiz Arena</a></li>
+                    <li><a href="#dashboard" class="nav-link">Progress</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#signin" class="btn btn-secondary btn-signin">Sign In</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section" id="home" aria-labelledby="hero-headline">
+            <div class="hero-container">
+                <div class="hero-brand-badge-wrapper">
+                    <span class="hero-brand-italic">Lexora</span>
+                </div>
+
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <h1 id="hero-headline" class="hero-title">
+                            Master Words.<br>
+                            <span class="text-gradient">Master Expression.</span>
+                        </h1>
+                        <p class="hero-subheading">
+                            Expand your vocabulary through immersive learning, interactive challenges, and powerful word exploration.
+                        </p>
+                        <div class="hero-cta-group">
+                            <a href="#explorer" class="btn btn-primary">Explore Words</a>
+                            <a href="#quiz" class="btn btn-glow">Start Quiz</a>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual-container">
+                        <div class="orb-canvas-placeholder" id="hero-3d-orb" aria-hidden="true">
+                            <div class="fallback-glow-orb"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-stats-row">
+                    <div class="hero-stat-mini-card">
+                        <span class="mini-stat-val">10k+</span>
+                        <span class="mini-stat-lbl">Active Curated Words</span>
+                    </div>
+                    <div class="hero-stat-mini-card">
+                        <span class="mini-stat-val">99.4%</span>
+                        <span class="mini-stat-lbl">IELTS Target Success</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="trusted-section" aria-label="Achievements and Recognition">
+            <div class="section-container">
+                <h2 class="trusted-title">Empowering Global Communicators</h2>
+                <div class="trusted-stats-grid">
+                    <div class="trusted-stat-card">
+                        <div class="stat-number" data-target="250000">250K+</div>
+                        <p class="stat-label">Words Mastered Globally</p>
+                    </div>
+                    <div class="trusted-stat-card">
+                        <div class="stat-number" data-target="45">4.9/5</div>
+                        <p class="stat-label">App Store Rating</p>
+                    </div>
+                    <div class="trusted-stat-card">
+                        <div class="stat-number" data-target="180">180+</div>
+                        <p class="stat-label">Countries Represented</p>
+                    </div>
+                    <div class="trusted-stat-card">
+                        <div class="stat-number" data-target="92">92%</div>
+                        <p class="stat-label">Retention & Fast Learning Rate</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section" id="features" aria-labelledby="features-heading">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 id="features-heading" class="section-title
