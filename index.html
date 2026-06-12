@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,16 +16,14 @@
     <header class="navbar" id="main-navbar">
         <div class="navbar-container">
             <a href="#home" class="nav-logo" aria-label="Lexora Home">
-                <svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
                 </svg>
                 <span class="logo-text">Lexora</span>
             </a>
 
-            <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle Navigation Menu">
-                <span class="hamburger"></span>
+            <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+                <span class="hamburger-bar"></span>
             </button>
 
             <nav class="nav-menu" id="nav-menu">
@@ -48,7 +46,7 @@
     <main>
         <section class="hero-section" id="home" aria-labelledby="hero-headline">
             <div class="hero-container">
-                <div class="hero-brand-badge-wrapper">
+                <div class="hero-brand-badge">
                     <span class="hero-brand-italic">Lexora</span>
                 </div>
 
@@ -76,36 +74,36 @@
 
                 <div class="hero-stats-row">
                     <div class="hero-stat-mini-card">
-                        <span class="mini-stat-val">10k+</span>
-                        <span class="mini-stat-lbl">Active Curated Words</span>
+                        <span class="mini-stat-value">12k+</span>
+                        <span class="mini-stat-label">Active Core Expressions</span>
                     </div>
                     <div class="hero-stat-mini-card">
-                        <span class="mini-stat-val">99.4%</span>
-                        <span class="mini-stat-lbl">IELTS Target Success</span>
+                        <span class="mini-stat-value">99.2%</span>
+                        <span class="mini-stat-label">Retention Acceleration</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="trusted-section" aria-label="Achievements and Recognition">
+        <section class="trusted-section" aria-label="Achievements and Global Metrics">
             <div class="section-container">
-                <h2 class="trusted-title">Empowering Global Communicators</h2>
+                <h2 class="trusted-title">Empowering Communicators Worldwide</h2>
                 <div class="trusted-stats-grid">
                     <div class="trusted-stat-card">
-                        <div class="stat-number" data-target="250000">250K+</div>
+                        <span class="stat-number" data-target="250000">250K+</span>
                         <p class="stat-label">Words Mastered Globally</p>
                     </div>
                     <div class="trusted-stat-card">
-                        <div class="stat-number" data-target="45">4.9/5</div>
-                        <p class="stat-label">App Store Rating</p>
+                        <span class="stat-number">4.9/5</span>
+                        <p class="stat-label">App Store Evaluation</p>
                     </div>
                     <div class="trusted-stat-card">
-                        <div class="stat-number" data-target="180">180+</div>
-                        <p class="stat-label">Countries Represented</p>
+                        <span class="stat-number" data-target="180">180+</span>
+                        <p class="stat-label">Countries Active</p>
                     </div>
                     <div class="trusted-stat-card">
-                        <div class="stat-number" data-target="92">92%</div>
-                        <p class="stat-label">Retention & Fast Learning Rate</p>
+                        <span class="stat-number" data-target="92">92%</span>
+                        <p class="stat-label">IELTS Target Success Rate</p>
                     </div>
                 </div>
             </div>
@@ -114,4 +112,541 @@
         <section class="features-section" id="features" aria-labelledby="features-heading">
             <div class="section-container">
                 <div class="section-header">
-                    <h2 id="features-heading" class="section-title
+                    <h2 id="features-heading" class="section-title">Engineered for Deep Retention</h2>
+                    <p class="section-subtitle">A cognitive workspace designed with elegant UI structures for fluid, modern acquisition.</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        </div>
+                        <h3 class="feature-title">Smart Word Search</h3>
+                        <p class="feature-description">Contextual AI queries providing comprehensive, granular definitions instantly.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        </div>
+                        <h3 class="feature-title">Daily Word Challenge</h3>
+                        <p class="feature-description">Curated micro-burst modules synced accurately with cognitive retention intervals.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                        </div>
+                        <h3 class="feature-title">Interactive Quiz Arena</h3>
+                        <p class="feature-description">Gamified contextual evaluations targeting quick identification capabilities under pressure.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                        </div>
+                        <h3 class="feature-title">Personal Vocabulary Vault</h3>
+                        <p class="feature-description">Your personalized lexicon reserve configured with customized categorization parameters.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                        </div>
+                        <h3 class="feature-title">Progress Tracking</h3>
+                        <p class="feature-description">Comprehensive metric dashboards delivering granular insights into your expression curves.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                        </div>
+                        <h3 class="feature-title">IELTS Vocabulary Hub</h3>
+                        <p class="feature-description">Specialized clusters fine-tuned for high-level band scores in academic contexts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="galaxy-section" id="galaxy" aria-labelledby="galaxy-heading">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 id="galaxy-heading" class="section-title">The Vocabulary Galaxy</h2>
+                    <p class="section-subtitle">Navigate focused lexical clusters mapped across distinct application nodes.</p>
+                </div>
+
+                <div class="galaxy-grid">
+                    <div class="galaxy-card" tabindex="0">
+                        <div class="galaxy-card-blur-bg" aria-hidden="true"></div>
+                        <div class="galaxy-card-inner">
+                            <span class="galaxy-node-id">Cluster 01</span>
+                            <h3 class="galaxy-node-title">Academic</h3>
+                            <p class="galaxy-node-desc">Advanced terminology engineered for analytical exposition, critique, and research.</p>
+                            <span class="galaxy-link">Enter Node &rarr;</span>
+                        </div>
+                    </div>
+
+                    <div class="galaxy-card" tabindex="0">
+                        <div class="galaxy-card-blur-bg" aria-hidden="true"></div>
+                        <div class="galaxy-card-inner">
+                            <span class="galaxy-node-id">Cluster 02</span>
+                            <h3 class="galaxy-node-title">Literature</h3>
+                            <p class="galaxy-node-desc">Expressive language selections focusing on classical rhetoric, narrative depth, and poetic poise.</p>
+                            <span class="galaxy-link">Enter Node &rarr;</span>
+                        </div>
+                    </div>
+
+                    <div class="galaxy-card" tabindex="0">
+                        <div class="galaxy-card-blur-bg" aria-hidden="true"></div>
+                        <div class="galaxy-card-inner">
+                            <span class="galaxy-node-id">Cluster 03</span>
+                            <h3 class="galaxy-node-title">Business</h3>
+                            <p class="galaxy-node-desc">Strategic syntax tailored directly for elite corporate dialogue, negotiation, and modern commerce.</p>
+                            <span class="galaxy-link">Enter Node &rarr;</span>
+                        </div>
+                    </div>
+
+                    <div class="galaxy-card" tabindex="0">
+                        <div class="galaxy-card-blur-bg" aria-hidden="true"></div>
+                        <div class="galaxy-card-inner">
+                            <span class="galaxy-node-id">Cluster 04</span>
+                            <h3 class="galaxy-node-title">Technology</h3>
+                            <p class="galaxy-node-desc">Modern digital lexicons built around emergent paradigms, tech environments, and execution layers.</p>
+                            <span class="galaxy-link">Enter Node &rarr;</span>
+                        </div>
+                    </div>
+
+                    <div class="galaxy-card" tabindex="0">
+                        <div class="galaxy-card-blur-bg" aria-hidden="true"></div>
+                        <div class="galaxy-card-inner">
+                            <span class="galaxy-node-id">Cluster 05</span>
+                            <h3 class="galaxy-node-title">IELTS</h3>
+                            <p class="galaxy-node-desc">High-precision core configurations targeting Band 8.0+ performance in language assessment structures.</p>
+                            <span class="galaxy-link">Enter Node &rarr;</span>
+                        </div>
+                    </div>
+
+                    <div class="galaxy-card" tabindex="0">
+                        <div class="galaxy-card-blur-bg" aria-hidden="true"></div>
+                        <div class="galaxy-card-inner">
+                            <span class="galaxy-node-id">Cluster 06</span>
+                            <h3 class="galaxy-node-title">Advanced Vocabulary</h3>
+                            <p class="galaxy-node-desc">Rare, multi-syllabic, and highly nuanced architectural terms for masterful articulation capability.</p>
+                            <span class="galaxy-link">Enter Node &rarr;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="explorer-section" id="explorer" aria-labelledby="explorer-heading">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 id="explorer-heading" class="section-title">Linguistic Core Explorer</h2>
+                    <p class="section-subtitle">Interrogate individual parameters of specific components inside our display dashboard.</p>
+                </div>
+
+                <div class="explorer-workspace">
+                    <div class="search-module">
+                        <form class="search-form" role="search" action="#" method="GET">
+                            <label for="explorer-search" class="visually-hidden">Search for advanced words</label>
+                            <div class="search-input-wrapper">
+                                <input type="search" id="explorer-search" class="search-input-field" placeholder="Query term execution... (e.g., Ephemeral)">
+                                <button type="submit" class="search-action-button" aria-label="Search term">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="word-card-display glassmorphic-container">
+                        <div class="word-card-top">
+                            <div class="word-identifiers">
+                                <h3 class="target-word">Ephemeral</h3>
+                                <span class="phonetic-transcription">/ɪˈfemərəl/</span>
+                                <span class="part-of-speech">adjective</span>
+                            </div>
+                            <button class="btn-save-vault" aria-label="Add Ephemeral to Personal Vault">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                            </button>
+                        </div>
+
+                        <div class="word-card-details">
+                            <div class="detail-segment">
+                                <h4 class="segment-label">Meaning</h4>
+                                <p class="segment-text">Lasting for a very short, transient period of time; fleeting by nature.</p>
+                            </div>
+
+                            <div class="detail-split-row">
+                                <div class="detail-segment">
+                                    <h4 class="segment-label">Synonyms</h4>
+                                    <div class="tag-cloud">
+                                        <span class="vocab-tag">Transient</span>
+                                        <span class="vocab-tag">Fleeting</span>
+                                        <span class="vocab-tag">Evanescent</span>
+                                    </div>
+                                </div>
+                                <div class="detail-segment">
+                                    <h4 class="segment-label">Antonyms</h4>
+                                    <div class="tag-cloud">
+                                        <span class="vocab-tag ant-tag">Permanent</span>
+                                        <span class="vocab-tag ant-tag">Eternal</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="detail-segment example-wrapper">
+                                <h4 class="segment-label">Example Sentence</h4>
+                                <blockquote class="context-quote">
+                                    "The beautiful pattern formed by the particle glow was inherently <mark>ephemeral</mark>, dissolving into abstract vectors within seconds."
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="challenge-section" id="challenge" aria-labelledby="challenge-heading">
+            <div class="section-container">
+                <div class="challenge-layout-grid">
+                    <div class="challenge-meta-content">
+                        <span class="eyebrow-tag">Daily Objective</span>
+                        <h2 id="challenge-heading" class="section-title">Today's Hyper-Drive</h2>
+                        <p class="challenge-desc">Maintain daily cognitive synchronization parameters to ensure memory trace paths remain uncompromised.</p>
+                        
+                        <div class="challenge-progress-box">
+                            <div class="progress-meta-labels">
+                                <span class="progress-label-text">Objective Completion</span>
+                                <span class="progress-percentage-value">60%</span>
+                            </div>
+                            <div class="progress-track" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-fill" style="width: 60%;"></div>
+                            </div>
+                            <div class="streak-tracker-display">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg>
+                                <span>Active Multi-Day Streak: <strong>14 Days</strong></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="challenge-cards-stack">
+                        <div class="challenge-interactive-card">
+                            <div class="c-card-header">
+                                <span class="c-card-badge">Word 3 of 5</span>
+                                <h3 class="c-card-term">Sagacious</h3>
+                            </div>
+                            <p class="c-card-definition">Demonstrating sharp mental intelligence, deep structural discernment, and profound analytical judgment.</p>
+                            <div class="c-card-footer-actions">
+                                <button class="btn btn-secondary btn-sm">Mark as Mastered</button>
+                                <button class="btn btn-icon" aria-label="Skip item for next sequence">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quiz-section" id="quiz" aria-labelledby="quiz-heading">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 id="quiz-heading" class="section-title">The Quiz Arena</h2>
+                    <p class="section-subtitle">Real-time latency evaluation sequences constructed to reinforce absolute recall clarity.</p>
+                </div>
+
+                <div class="quiz-arena-workspace">
+                    <div class="quiz-metrics-sidebar">
+                        <div class="metric-status-card">
+                            <span class="m-status-title">Current Score</span>
+                            <div class="m-status-value">1,420 <span class="points-label">pts</span></div>
+                        </div>
+                        <div class="metric-status-card">
+                            <span class="m-status-title">Arena Streak</span>
+                            <div class="m-status-value-group">
+                                <span class="streak-accent-number">5x</span> Multiplier Active
+                            </div>
+                        </div>
+                        <div class="metric-status-card">
+                            <span class="m-status-title">Current Badge</span>
+                            <span class="badge badge-elite">Tier IV Academic</span>
+                        </div>
+                    </div>
+
+                    <div class="quiz-core-interface" role="region" aria-label="Active Quiz Module">
+                        <div class="quiz-interface-top">
+                            <span class="question-tracker">Evaluation Unit 04 of 10</span>
+                            <div class="arena-countdown" aria-label="Remaining time bar">
+                                <div class="countdown-fill" style="width: 70%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="quiz-prompt-area">
+                            <h3 class="quiz-prompt-text">Which option establishes the most precise accurate synonym for the word <span class="word-highlight">"Eloquent"</span>?</h3>
+                        </div>
+
+                        <div class="quiz-options-group" role="radiogroup" aria-label="Multiple choice answers">
+                            <button type="button" role="radio" aria-checked="false" class="quiz-option-button">
+                                <span class="option-index">A</span>
+                                <span class="option-string">Inherently silent or continuously uncommunicative</span>
+                            </button>
+                            <button type="button" role="radio" aria-checked="true" class="quiz-option-button selected">
+                                <span class="option-index">B</span>
+                                <span class="option-string">Fluent, highly expressive, and intensely persuasive in speech</span>
+                            </button>
+                            <button type="button" role="radio" aria-checked="false" class="quiz-option-button">
+                                <span class="option-index">C</span>
+                                <span class="option-string">Displaying high structural levels of economic dependency</span>
+                            </button>
+                            <button type="button" role="radio" aria-checked="false" class="quiz-option-button">
+                                <span class="option-index">D</span>
+                                <span class="option-string">Overly analytical regarding simple architectural matrices</span>
+                            </button>
+                        </div>
+
+                        <div class="quiz-interface-footer">
+                            <button class="btn btn-secondary">Skip Phase</button>
+                            <button class="btn btn-primary">Submit Evaluation</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dashboard-section" id="dashboard" aria-labelledby="dashboard-heading">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 id="dashboard-heading" class="section-title">Cognitive Analytics</h2>
+                    <p class="section-subtitle">Comprehensive instrumentation displaying your linguistic acceleration across real-time timelines.</p>
+                </div>
+
+                <div class="dashboard-summary-grid">
+                    <div class="telemetry-card">
+                        <span class="telemetry-lbl">Words Mastered</span>
+                        <div class="telemetry-val">1,284</div>
+                        <span class="telemetry-trend trending-positive">+32 expression delta</span>
+                    </div>
+                    <div class="telemetry-card">
+                        <span class="telemetry-lbl">Current Streak</span>
+                        <div class="telemetry-val">15 Days</div>
+                        <span class="telemetry-trend trending-positive">Optimal pacing lock-on</span>
+                    </div>
+                    <div class="telemetry-card">
+                        <span class="telemetry-lbl">Quiz Accuracy</span>
+                        <div class="telemetry-val">94.2%</div>
+                        <span class="telemetry-trend trending-stable">Consistent across baseline</span>
+                    </div>
+                    <div class="telemetry-card">
+                        <span class="telemetry-lbl">Weekly Hours</span>
+                        <div class="telemetry-val">8.4 <span class="unit-lbl">Hrs</span></div>
+                        <span class="telemetry-trend trending-positive">+1.5h vs preceding vector</span>
+                    </div>
+                </div>
+
+                <div class="dashboard-analytics-details">
+                    <div class="analytics-chart-container glassmorphic-container">
+                        <h3 class="panel-title">Weekly Progress Timeline Vector</h3>
+                        <div class="chart-graphic-placeholder" aria-hidden="true">
+                            <svg class="mock-chart-svg" viewBox="0 0 600 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 180 C 120 130, 200 170, 320 70 C 420 30, 500 50, 590 20" stroke="#7C6AF5" stroke-width="4" stroke-linecap="round"/>
+                                <path d="M10 180 C 120 130, 200 170, 320 70 C 420 30, 500 50, 590 20 L 590 220 L 10 220 Z" fill="url(#chart-gradient-glow)" opacity="0.1"/>
+                                <defs>
+                                    <linearGradient id="chart-gradient-glow" x1="0" y1="0" x2="0" y2="1">
+                                        <stop offset="0%" stop-color="#7C6AF5"/>
+                                        <stop offset="100%" stop-color="transparent"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="chart-timeline-labels">
+                                <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="analytics-badges-container glassmorphic-container">
+                        <h3 class="panel-title">Unlocked Achievement Tokens</h3>
+                        <div class="badges-flex-layout">
+                            <div class="badge-token" tabindex="0" aria-label="Achievement Token: Lexical Polymath unlocked">
+                                <div class="badge-geometric-frame">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon></svg>
+                                </div>
+                                <span class="badge-title-string">Polymath</span>
+                            </div>
+
+                            <div class="badge-token" tabindex="0" aria-label="Achievement Token: Hyper-Drive Streak unlocked">
+                                <div class="badge-geometric-frame">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                                </div>
+                                <span class="badge-title-string">Hyper-Drive</span>
+                            </div>
+
+                            <div class="badge-token" tabindex="0" aria-label="Achievement Token: Band 9 Paradigm unlocked">
+                                <div class="badge-geometric-frame">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                                </div>
+                                <span class="badge-title-string">Band 9 Aura</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section" aria-labelledby="testimonials-heading">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 id="testimonials-heading" class="section-title">Validated by Leading Minds</h2>
+                    <p class="section-subtitle">Discover how advanced spatial learning frameworks redefine conversational poise and precision execution.</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <blockquote class="premium-testimonial-card glassmorphic-container">
+                        <div class="testimonial-rating-nodes" aria-label="Evaluation: 5 Stars">★★★★★</div>
+                        <p class="testimonial-body-text">"The contextual word-mapping engine inside Lexora transformed my approach to thesis defense preparation. The interface alignment forces absolute, uncompromised cognitive focus."</p>
+                        <cite class="testimonial-profile-meta">
+                            <span class="p-name">Dr. Elena Rostova</span>
+                            <span class="p-title">Cognitive Linguistics Chair</span>
+                        </cite>
+                    </blockquote>
+
+                    <blockquote class="premium-testimonial-card glassmorphic-container">
+                        <div class="testimonial-rating-nodes" aria-label="Evaluation: 5 Stars">★★★★★</div>
+                        <p class="testimonial-body-text">"Securing a consistent high-band result across complex academic lexical testing parameters felt incredibly distant until I locked on to Lexora. Pure fluid brilliance."</p>
+                        <cite class="testimonial-profile-meta">
+                            <span class="p-name">Marcus Vance</span>
+                            <span class="p-title">Senior Strategy Advisor</span>
+                        </cite>
+                    </blockquote>
+
+                    <blockquote class="premium-testimonial-card glassmorphic-container">
+                        <div class="testimonial-rating-nodes" aria-label="Evaluation: 5 Stars">★★★★★</div>
+                        <p class="testimonial-body-text">"An absolute masterclass achievement in SaaS product layouts. The design integration combined with real-time feedback telemetry sets a staggering industry benchmark."</p>
+                        <cite class="testimonial-profile-meta">
+                            <span class="p-name">Siddharth Mehta</span>
+                            <span class="p-title">Principal Interface Architect</span>
+                        </cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section" aria-labelledby="faq-heading">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 id="faq-heading" class="section-title">System Architecture Inquiries</h2>
+                    <p class="section-subtitle">Deconstructing the core operational parameters of the Lexora platform matrix.</p>
+                </div>
+
+                <div class="accordion-workspace">
+                    <div class="accordion-node">
+                        <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-block-1">
+                            <span class="accordion-question-text">How does the integrated spacing retention matrix optimize lexical memory?</span>
+                            <span class="accordion-icon-toggle" aria-hidden="true"></span>
+                        </button>
+                        <div id="faq-block-1" class="accordion-panel" role="region" hidden>
+                            <div class="panel-content-wrapper">
+                                <p class="faq-response-text">Lexora maps historical recall verification velocities across precise data sequences. Internal algorithmic tracking parameters continuously adjust intervals to deliver target expressions right at the threshold of natural memory degradation paths.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-node">
+                        <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-block-2">
+                            <span class="accordion-question-text">Can users configure specialized tracks for specific international benchmarking?</span>
+                            <span class="accordion-icon-toggle" aria-hidden="true"></span>
+                        </button>
+                        <div id="faq-block-2" class="accordion-panel" role="region" hidden>
+                            <div class="panel-content-wrapper">
+                                <p class="faq-response-text">Yes, the Vocabulary Galaxy allows immediate isolation of localized parameter nodes. Choosing specialized pathways automatically weights internal evaluation parameters toward specific high-tier standardized scoring indices.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-node">
+                        <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-block-3">
+                            <span class="accordion-question-text">What hardware standards are required to execute background canvas rendering?</span>
+                            <span class="accordion-icon-toggle" aria-hidden="true"></span>
+                        </button>
+                        <div id="faq-block-3" class="accordion-panel" role="region" hidden>
+                            <div class="panel-content-wrapper">
+                                <p class="faq-response-text">The Three.js execution framework leverages accelerated graphics pipelines while maintaining a highly optimized footprint. Devices capable of basic hardware-accelerated web viewports will resolve structural graphics smoothly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+            <div class="section-container">
+                <div class="contact-card-wrapper glassmorphic-container">
+                    <div class="contact-identity-block">
+                        <h2 id="contact-heading" class="section-title">Establish Interlock</h2>
+                        <p class="contact-instruction-text">Initiate custom deployment configurations, scale corporate team options, or query individual enterprise matrix tiers directly through a transmission vector.</p>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="interactive-form-root" action="#" method="POST">
+                            <div class="form-element-wrapper">
+                                <label for="contact-name" class="field-label-text">Identity nomenclature</label>
+                                <input type="text" id="contact-name" name="name" class="form-input-element" placeholder="e.g., Alistair Vance" required>
+                            </div>
+
+                            <div class="form-element-wrapper">
+                                <label for="contact-email" class="field-label-text">Vector routing path (Email)</label>
+                                <input type="email" id="contact-email" name="email" class="form-input-element" placeholder="name@domain.com" required>
+                            </div>
+
+                            <div class="form-element-wrapper">
+                                <label for="contact-message" class="field-label-text">Transmission manifest statement</label>
+                                <textarea id="contact-message" name="message" class="form-input-element text-area-element" rows="4" placeholder="Specify execution requirements or inquiries..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block-submit">Transmit Manifest</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer-root">
+        <div class="footer-container">
+            <div class="footer-upper-segment">
+                <div class="footer-brand-profile">
+                    <span class="footer-logo-text">Lexora</span>
+                    <p class="footer-brand-abstract">Architecting cognitive linguistic expression environments inspired by human acceleration frameworks.</p>
+                </div>
+
+                <div class="footer-comms-nodes">
+                    <span class="comms-header-label">Communication Nodes</span>
+                    <div class="social-links-row">
+                        <a href="https://x.com" class="social-node-anchor" aria-label="Lexora X Platform Broadcast Vector">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                        </a>
+                        <a href="https://github.com" class="social-node-anchor" aria-label="Lexora Core Infrastructure Registries">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="https://linkedin.com" class="social-node-anchor" aria-label="Lexora Corporate Network Directory">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="footer-structural-divider">
+
+            <div class="footer-lower-segment">
+                <p class="copyright-statement">&copy; 2026 Lexora Platforms Inc. Planetary networks data protection compliance configuration active.</p>
+                <a href="#home" class="back-top-trigger" aria-label="Ascend to absolute layout header matrix coordinates">
+                    <span class="arrow-glyph" aria-hidden="true">&uarr;</span> Back to top
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
